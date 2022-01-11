@@ -15,7 +15,7 @@ function Lamps (name,capacity,kelvin){
   this.capacity = capacity;
   this.kelvin = kelvin;
   this.printView = function(){
-    console.log(`Тип лампы: ${name}. Мощность: ${capacity} Вт. Температура : ${kelvin}K.`)
+    console.log(`Тип лампы: ${this.name}. Мощность: ${this.capacity} Вт. Температура : ${this.kelvin}K.`)
     console.log('Питание в положении: ' + this.onOff )
   }
 }
